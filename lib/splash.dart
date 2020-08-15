@@ -26,15 +26,23 @@ class _splashscreenState extends State<splashscreen> {
     return Scaffold(
       backgroundColor: Colors.indigo,
       body: Center(
-        child: Text(
-          "Quizstar\nTest Yourself !!",
-          style: TextStyle(
-            fontSize: 50.0,
-            color: Colors.white,
-            fontFamily: "Satisfy",
-          ),
-          textAlign: TextAlign.center,
-        ),
+        child: Material(
+                    elevation: 5.0,
+                    borderRadius: BorderRadius.circular(400.0),
+                    child: Container(
+                      // changing from 200 to 150 as to look better
+                      height: 250.0,
+                      width: 250.0,
+                      child: ClipOval(
+                        child: Image(
+                          fit: BoxFit.cover,
+                          image: AssetImage(
+                            'images/ansh_comic.png',
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
       ),
     );
   }

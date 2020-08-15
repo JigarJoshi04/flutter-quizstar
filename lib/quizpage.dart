@@ -16,16 +16,11 @@ class getjson extends StatelessWidget {
   // sets the asset to a particular JSON file
   // and opens the JSON
   setasset() {
-    if (langname == "Python") {
-      assettoload = "assets/python.json";
-    } else if (langname == "Java") {
-      assettoload = "assets/java.json";
-    } else if (langname == "Javascript") {
-      assettoload = "assets/js.json";
-    } else if (langname == "C++") {
-      assettoload = "assets/cpp.json";
-    } else {
-      assettoload = "assets/linux.json";
+    if (langname == "Anchal") {
+      assettoload = "assets/anchal.json";
+    } 
+    else if (langname == "Jigar") {
+      assettoload = "assets/jigar.json";
     }
   }
 
@@ -49,7 +44,7 @@ class getjson extends StatelessWidget {
             ),
           );
         } else {
-          return quizpage(mydata: mydata);
+          return quizpage(mydata: mydata, langname: langname);
         }
       },
     );
@@ -58,27 +53,29 @@ class getjson extends StatelessWidget {
 
 class quizpage extends StatefulWidget {
   final List mydata;
-
-  quizpage({Key key, @required this.mydata}) : super(key: key);
+  final String langname;
+  quizpage({Key key, @required this.mydata,@required this.langname}) : super(key: key);
   @override
-  _quizpageState createState() => _quizpageState(mydata);
+  _quizpageState createState() => _quizpageState(mydata,langname);
 }
 
 class _quizpageState extends State<quizpage> {
   final List mydata;
-  _quizpageState(this.mydata);
+  final String langname;
+  _quizpageState(this.mydata, this.langname);
 
   Color colortoshow = Colors.indigoAccent;
   Color right = Colors.green;
   Color wrong = Colors.red;
   int marks = 0;
+  
   int i = 1;
   bool disableAnswer = false;
   // extra varibale to iterate
   int j = 1;
   int timer = 30;
   String showtimer = "30";
-  var random_array;
+  //var random_array;
 
   Map<String, Color> btncolor = {
     "a": Colors.indigoAccent,
@@ -93,21 +90,22 @@ class _quizpageState extends State<quizpage> {
   // to create the array elements randomly use the dart:math module
   // -----     CODE TO GENERATE ARRAY RANDOMLY
 
-  genrandomarray(){
-    var distinctIds = [];
-    var rand = new Random();
-      for (int i = 0; ;) {
-      distinctIds.add(rand.nextInt(10));
-        random_array = distinctIds.toSet().toList();
-        if(random_array.length < 10){
-          continue;
-        }else{
-          break;
-        }
-      }
-      print(random_array);
-  }
-
+//this is commented by jigar
+  // genrandomarray(){
+  //   var distinctIds = [];
+  //   var rand = new Random();
+  //     for (int i = 0; ;) {
+  //     distinctIds.add(rand.nextInt(10));
+  //       random_array = distinctIds.toSet().toList();
+  //       if(random_array.length < 10){
+  //         continue;
+  //       }else{
+  //         break;
+  //       }
+  //     }
+  //     print(random_array);
+  // }
+//comment ends here
   //   var random_array;
   //   var distinctIds = [];
   //   var rand = new Random();
@@ -123,13 +121,13 @@ class _quizpageState extends State<quizpage> {
   //   print(random_array);
 
   // ----- END OF CODE
-  // var random_array = [1, 6, 7, 2, 4, 10, 8, 3, 9, 5];
+  var random_array = [1,2,3,4,5,6,7,8,9,10];
 
   // overriding the initstate function to start timer as this screen is created
   @override
   void initState() {
     starttimer();
-    genrandomarray();
+    //genrandomarray();
     super.initState();
   }
 
@@ -167,7 +165,7 @@ class _quizpageState extends State<quizpage> {
         j++;
       } else {
         Navigator.of(context).pushReplacement(MaterialPageRoute(
-          builder: (context) => resultpage(marks: marks),
+          builder: (context) => resultpage(marks: marks, langname: langname),
         ));
       }
       btncolor["a"] = Colors.indigoAccent;
@@ -187,7 +185,7 @@ class _quizpageState extends State<quizpage> {
     // so nake sure that this is now corrected
     if (mydata[2][i.toString()] == mydata[1][i.toString()][k]) {
       // just a print sattement to check the correct working
-      // debugPrint(mydata[2][i.toString()] + " is equal to " + mydata[1][i.toString()][k]);
+      debugPrint(mydata[2][i.toString()] + " is equal to " + mydata[1][i.toString()][k]);
       marks = marks + 5;
       // changing the color variable to be green
       colortoshow = right;

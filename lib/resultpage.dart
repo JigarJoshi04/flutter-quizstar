@@ -1,47 +1,55 @@
 import 'package:flutter/material.dart';
 import 'package:quizstar/home.dart';
+import 'package:quizstar/quizpage.dart';
 
 class resultpage extends StatefulWidget {
   int marks;
-  resultpage({Key key , @required this.marks}) : super(key : key);
+  final String langname;
+  
+
+  resultpage({Key key , @required this.marks ,@required this.langname}) : super(key : key);
   @override
-  _resultpageState createState() => _resultpageState(marks);
+  _resultpageState createState() => _resultpageState(marks,langname);
 }
 
 class _resultpageState extends State<resultpage> {
 
   List<String> images = [
-    "images/success.png",
-    "images/good.png",
-    "images/bad.png",
+    "images/minion_brthday.png",
+    "images/birthday.png",
+    "images/cake.png",
   ];
 
   String message;
   String image;
 
+  int marks;
+  final String langname;
+  _resultpageState(this.marks, this.langname);
+  
   @override
   void initState(){
     if(marks < 20){
       image = images[2];
-      message = "You Should Try Hard..\n" + "You Scored $marks";
+      message = "You scored $marks \n and $langname is Ansh's best friend";
     }else if(marks < 35){
       image = images[1];
-      message = "You Can Do Better..\n" + "You Scored $marks";
+      message = "You scored $marks \n and $langname is Ansh's best friend";
     }else{
       image = images[0];
-      message = "You Did Very Well..\n" + "You Scored $marks";
+      message = "You scored $marks \n and $langname is Ansh's best friend";
     }
     super.initState();
   }
 
-  int marks;
-  _resultpageState(this.marks);
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Result",
+          "HAPPY 20th BIRTHDAY ANSH",
+          //langname,
         ),
       ),
       body: Column(
