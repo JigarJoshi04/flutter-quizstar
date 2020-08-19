@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:quizstar/quizpage.dart';
+import 'package:ansh_birtday/quizpage.dart';
 
 class homepage extends StatefulWidget {
   @override

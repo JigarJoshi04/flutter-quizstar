@@ -1,88 +1,88 @@
 [
     {
-        "1": "Anchal question 01",
-        "2": "Anchal question 02",
-        "3": "Anchal question 03",
-        "4": "Anchal question 04",
-        "5": "Anchal question 05",
-        "6": "Anchal question 06",
-        "7": "Anchal question 07",
-        "8": "Anchal question 08",
-        "9": "Anchal question 09",
-        "10": "Anchal question 10"
+        "1": "Who is the better chef?",
+        "2": "Who is on your mind while solving this quiz?",
+        "3": "Which celebrity do you wanna date?",
+        "4": "What movie do you wish life was more like?",
+        "5": "What were you in your past life?",
+        "6": "What is the one thing you refuse to share?",
+        "7": "How much it takes you to get drunk?",
+        "8": "Which is the best nickname you have given me?",
+        "9": "What habit of me you dislike the most?",
+        "10": "Which duo resembles you and me?"
     },
     {
         "1": {
-            "a": "pp",
-            "b": "ppp",
-            "c": "3p",
-            "d": "p3"
+            "a": "Anchal",
+            "b": "Anchalll",
+            "c": "Anchalllll",
+            "d": "Anchallllliiii"
         },
         "2": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "Anchal",
+            "b": "Anchalll",
+            "c": "Anchalllll",
+            "d": "Anchallllliiii"
         },
         "3": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Rakhi Sawant",
+            "b": "Mallika Sherawat",
+            "c": "Deepak Kalal",
+            "d": "Rhea Chakraborty"
         },
         "4": {
-            "a": "cout",
-            "b": "print",
-            "c": "println",
-            "d": "stderr"
+            "a": "Hangover",
+            "b": "Yeh Jawani hai Diwani",
+            "c": "Jane tu ya jane na",
+            "d": "Crazy rich asians"
         },
         "5": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "Makkhi",
+            "b": "Vampire",
+            "c": "Crow",
+            "d": "Bat"
         },
         "6": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Pizza",
+            "b": "Chocolates",
+            "c": "Laptop",
+            "d": "Phone"
         },
         "7": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "I'm always high",
+            "b": "Khamba",
+            "c": "Old Monk bottle",
+            "d": "2 Beers"
         },
         "8": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "panda",
+            "b": "dodo",
+            "c": "alien",
+            "d": "hippo"
         },
         "9": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "Coming late",
+            "b": "Cancelling plans",
+            "c": "Copying my habits",
+            "d": "Chup reh na!"
         },
         "10": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Rachael-Monica",
+            "b": "Joey-Chandler",
+            "c": "Jake-Charles",
+            "d": "Hitchcock-Scully"
         }
     },
     {
-        "1": "ppp",
-        "2": "type",
-        "3": "def",
-        "4": "print",
-        "5": "type",
-        "6": "def",
-        "7": "type",
-        "8": "def",
-        "9": "type",
-        "10": "def"
+        "1": "Anchal",
+        "2": "Anchal",
+        "3": "Rakhi Sawant",
+        "4": "Jane tu ya jane na",
+        "5": "Vampire",
+        "6": "Pizza",
+        "7": "I'm always high",
+        "8": "dodo",
+        "9": "Chup reh na!",
+        "10": "Joey-Chandler"
     }
 ]

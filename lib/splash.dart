@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:quizstar/home.dart';
+import 'package:ansh_birtday/home.dart';
 
 class splashscreen extends StatefulWidget {
   @override
@@ -37,7 +37,7 @@ class _splashscreenState extends State<splashscreen> {
                         child: Image(
                           fit: BoxFit.cover,
                           image: AssetImage(
-                            'images/ansh_comic.png',
+                            'images/ansh_jungle.png',
                           ),
                         ),
                       ),

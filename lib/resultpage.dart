@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quizstar/home.dart';
-import 'package:quizstar/quizpage.dart';
+import 'package:ansh_birtday/home.dart';
+import 'package:ansh_birtday/quizpage.dart';
 
 class resultpage extends StatefulWidget {
   int marks;

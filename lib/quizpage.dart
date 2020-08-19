@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:quizstar/resultpage.dart';
+import 'package:ansh_birtday/resultpage.dart';
 
 class getjson extends StatelessWidget {
   // accept the langname as a parameter
@@ -243,7 +243,7 @@ class _quizpageState extends State<quizpage> {
             context: context,
             builder: (context) => AlertDialog(
                   title: Text(
-                    "Quizstar",
+                    "ansh_birtday",
                   ),
                   content: Text("You Can't Go Back At This Stage."),
                   actions: <Widget>[

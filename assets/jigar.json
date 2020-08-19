@@ -1,88 +1,88 @@
 [
     {
-        "1": "Jigar question 01",
-        "2": "Jigar question 02",
-        "3": "Jigar question 03",
-        "4": "Jigar question 04",
-        "5": "Jigar question 05",
-        "6": "Jigar question 06",
-        "7": "Jigar question 07",
-        "8": "Jigar question 08",
-        "9": "Jigar question 09",
-        "10": "Jigar question 10"
+        "1": "Would you like to be famous? In what way?",
+        "2": "For what in your life do you feel most grateful?",
+        "3": "What habit of me annoys you the most?",
+        "4": "Do you want to have kids one day? How many?",
+        "5": "If you can choose only one thing what would it be?",
+        "6": "If you are gay whom would you like to date?",
+        "7": "Which topic bores you the most?",
+        "8": "If you could make Rhea do something, what would it be?",
+        "9": "Which thing doesn't suit your age?",
+        "10": "Who tells the best knock knock joke?"
     },
     {
         "1": {
-            "a": "conio.h",
-            "b": "cstdlib.h",
-            "c": "stdio.h",
-            "d": "math.h"
+            "a": "yes, Actor",
+            "b": "yes, Businessman",
+            "c": "yes, Chef",
+            "d": "yes, as Jigar's friend!"
         },
         "2": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "To be born as a Leo",
+            "b": "To meet Jigar",
+            "c": "To live in 'SO-BO'",
+            "d": "To become a integral member of 'WE THE BEST'"
         },
         "3": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Loving Council",
+            "b": "Talking about Rhea",
+            "c": "Cancelling plans due to stuco",
+            "d": "Wearing capris always"
         },
         "4": {
-            "a": "cout",
-            "b": "print",
-            "c": "println",
-            "d": "stderr"
+            "a": "1",
+            "b": "10",
+            "c": "11",
+            "d": "111"
         },
         "5": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "Love",
+            "b": "Health",
+            "c": "Friendship",
+            "d": "Money"
         },
         "6": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Akshat",
+            "b": "Hardik",
+            "c": "Jinay",
+            "d": "Anchal"
         },
         "7": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "Pooja",
+            "b": "Council",
+            "c": "Divya",
+            "d": "Parivaar"
         },
         "8": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Praise me",
+            "b": "Date me",
+            "c": "Kiss me",
+            "d": "Marry me"
         },
         "9": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "rage",
+            "b": "clubbing",
+            "c": "losing your hair",
+            "d": "losing your eyesight"
         },
         "10": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Jigar",
+            "b": "Jigarrr",
+            "c": "Jigarrriiiiii",
+            "d": "God"
         }
     },
     {
-        "1": "stdio.h",
-        "2": "type",
-        "3": "def",
-        "4": "print",
+        "1": "yes, as Jigar's friend!",
+        "2": "To become a integral member of 'WE THE BEST'",
+        "3": "Cancelling plans due to stuco",
+        "4": "10",
         "5": "type",
-        "6": "def",
-        "7": "type",
-        "8": "def",
+        "6": "Anchal",
+        "7": "Pooja",
+        "8": "Kiss me",
         "9": "type",
-        "10": "def"
+        "10": "God"
     }
 ]
